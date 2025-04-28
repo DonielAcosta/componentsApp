@@ -1,5 +1,5 @@
 import { Title } from './Title';
-import { CustomView } from './CustomView';
+// import { CustomView } from './CustomView';
 import { ScrollView } from 'react-native-gesture-handler';
 import { RefreshControl } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
