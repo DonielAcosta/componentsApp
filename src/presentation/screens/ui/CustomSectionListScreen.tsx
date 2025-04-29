@@ -1,12 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import { SectionList, useWindowDimensions } from 'react-native';
-import { Card } from './Card';
-import { CustomView } from './CustomView';
-import { Title } from './Title';
+import { Card } from '../../components/ui/Card';
+import { CustomView } from '../../components/ui/CustomView';
+import { Title } from '../../components/ui/Title';
 import { Text } from 'react-native';
-import { SubTilte } from './SubTilte';
+import { SubTilte } from '../../components/ui/SubTilte';
 import { colors } from '../../../config/theme/theme';
-import { Separator } from './Separator';
+import { Separator } from '../../components/ui/Separator';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 interface Houses {

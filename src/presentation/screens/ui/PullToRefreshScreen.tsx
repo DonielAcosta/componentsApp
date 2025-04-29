@@ -1,4 +1,4 @@
-import { Title } from './Title';
+import { Title } from '../../components/ui/Title';
 // import { CustomView } from './CustomView';
 import { ScrollView } from 'react-native-gesture-handler';
 import { RefreshControl } from 'react-native';

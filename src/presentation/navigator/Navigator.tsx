@@ -5,8 +5,10 @@ import { Animation102Screen } from '../screens/animations/Animation102Screen';
 import { SwitchScreen } from '../screens/switches/SwitchScreen';
 import { AlertScreen } from '../screens/home/alerts/AlertScreen';
 import { TextInputScreen } from '../screens/inputs/TextInputScreen';
-import { PullToRefreshScreen } from '../components/ui/PullToRefreshScreen';
-import { CustomSectionListScreen } from '../components/ui/CustomSectionListScreen';
+import { PullToRefreshScreen } from '../screens/ui/PullToRefreshScreen';
+import { CustomSectionListScreen } from '../screens/ui/CustomSectionListScreen';
+import { ModalScreen } from '../screens/ui/ModalScreen';
+import { InfiniteScrollScreen } from '../screens/ui/InfiniteScrollScreen';
 
 const Stack = createStackNavigator();
 
@@ -25,6 +27,8 @@ export const Navigator = () =>{
 
       <Stack.Screen name="CustomSectionListScreen" component={CustomSectionListScreen} />
 
+      <Stack.Screen name="ModalScreen" component={ModalScreen} />
+      <Stack.Screen name="InfiniteScrollScreen" component={InfiniteScrollScreen} />
 
     </Stack.Navigator>
   );
