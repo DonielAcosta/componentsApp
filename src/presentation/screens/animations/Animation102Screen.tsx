@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import { Animated, PanResponder, SafeAreaView, StyleSheet } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Animated, PanResponder, StyleSheet } from 'react-native';
+import { CustomView } from '../../components/ui/CustomView';
 
 export const Animation102Screen = () => {
 
@@ -26,14 +26,12 @@ export const Animation102Screen = () => {
     });
 
   return (
-        <SafeAreaProvider>
-        <SafeAreaView style={styles.container}>
+      <CustomView style={styles.container}>
         <Animated.View
             {...panResponder.panHandlers}
             style={[pan.getLayout(), styles.box]}
         />
-        </SafeAreaView>
-    </SafeAreaProvider>
+      </CustomView>
     );
 
 };

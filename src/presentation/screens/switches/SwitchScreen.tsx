@@ -5,9 +5,8 @@ import { CustomView } from '../../components/ui/CustomView';
 import { CustomSwitch } from '../../components/ui/CustomSwitch';
 import { Separator } from '../../components/ui/Separator';
 
+
 export const SwitchScreen = () => {
-  // const [isEnabled, setIsEnabled] = useState(false);
-  // const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
   const [state,setState] = useState({
     isActive:true,

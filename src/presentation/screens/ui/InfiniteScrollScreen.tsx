@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { FlatList } from 'react-native-gesture-handler';
 import { ActivityIndicator, Image, View } from 'react-native';
 import { colors } from '../../../config/theme/theme';
-import { FedeInImage } from '../../components/ui/FedeInImage';
+import { FadeInImage } from '../../components/ui/FedeInImage';
 
 export const InfiniteScrollScreen = () => {
     const [numbers,setNumbers] = useState([0,1,2,3,4,5]);
@@ -53,7 +53,7 @@ const ListItem = ({ number }: ListItemProps) => {
         // source={{ uri: `https://picsum.photos/id/${number}/500/400`}}
         // style={{ height:400,width:'100%' }}
         // />
-        <FedeInImage
+        <FadeInImage
         uri={`https://picsum.photos/id/${number}/500/400`}
         style={{ height:400,width:'100%' }}
         />
