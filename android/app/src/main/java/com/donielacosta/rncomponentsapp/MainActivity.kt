@@ -1,4 +1,4 @@
-package com.componentsapp
+package com.donielacosta.rncomponentsapp
 import android.os.Bundle;
 
 
